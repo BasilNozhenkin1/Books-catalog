@@ -47,7 +47,7 @@ Ext.define('Swan.view.form.onAdd', {
         disabled: true,
         handler: function() {
             var form = this.up('form').getForm();
-            console.log(form.getRecord());
+
             if (form.isValid()) {
                 form.submit({
                     success: function(form, action) {
