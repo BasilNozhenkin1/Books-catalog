@@ -4,7 +4,7 @@
 
 - Сделать хранение книг в БД
 - Реализовать форму добавления/редактирования книг
-- Реализовать функцию удаления книг ()
+- Реализовать функцию удаления книг 
 - Реализовать функцию выгрузки всех книг в XML
 
 ## Используемый стек
@@ -15,22 +15,22 @@ Backend - CodeIgniter 3.1.9
 
 ## Структура jsCore
 
-model
-	Books.js
-view
-	books
-		book.js
-		bookController.js
-		bookViewModel.js
-	form
-		onAdd.js
-		onDelete.js
-		onEdit.js
-app.js
+-model
+	-Books.js
+- view
+	- books
+		- book.js
+		- bookController.js
+		- bookViewModel.js
+	- form
+		- onAdd.js
+		- onDelete.js
+		- onEdit.js
+- app.js
 
 ## Подготовка к работе
 
-В корневой папке находится файл test.sql - файл базы данных (test), в которой есть таблица books_data.
+В корневой папке находится файл test.sql - файл базы данных (test), в которой есть таблица books_table.
 
 Конфигурация подключения к базе данных - в папке application/config. Файл - database.php
 
