@@ -15,8 +15,8 @@ Backend - CodeIgniter 3.1.9
 
 ## Структура jsCore
 
--model
-	-Books.js
+- model
+	- Books.js
 - view
 	- books
 		- book.js
